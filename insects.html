@@ -13,28 +13,47 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Insects by Dallas Williams</h1>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">W</div>
-            <div class="col-sm-2">I</div>
-            <div class="col-sm-2">L</div>
-            <div class="col-sm-2">L</div>
-            <div class="col-sm-2">I</div>
-            <div class="col-sm-2">A</div>
-        </div>
-        <div class="row">
-            <div class="col-md">Weevil</div>
-            <div class="col-md">Inchworm</div>
-            <div class="col-md">Locust</div>
-            <div class="col-md">Lacewing</div>
-            <div class="col-md">Io Moth</div>
-            <div class="col-md">Army Ants</div>
-        </div>
-        <br>
-        <p>When changing the size of the browser, the first row to break is the insect names. This is due to the second row being of medium size and the first row being smaller sized.</p>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="C:\Users\Dallas\Documents\GitHub\44563-webapps-assignment-5-dwillliams\insects.html">Intersting Insects</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-link active">
+            <a class="nav-link" href="C:\Users\Dallas\Documents\GitHub\44563-webapps-assignment-5-dwillliams\basic.html">Basic</a>
+          </li>
+          <li class="nav-link active">
+            <a class="nav-link" href="C:\Users\Dallas\Documents\GitHub\44563-webapps-assignment-5-dwillliams\advanced.html">Advanced</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+    
+  <h1>Insects by Dallas Williams</h1>  
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">W</div>
+      <div class="col-sm-2">I</div>
+      <div class="col-sm-2">L</div>
+      <div class="col-sm-2">L</div>
+      <div class="col-sm-2">I</div>
+      <div class="col-sm-2">A</div>
+    </div>
+    <div class="row">
+      <div class="col-md">Weevil</div>
+      <div class="col-md">Inchworm</div>
+      <div class="col-md">Locust</div>
+      <div class="col-md">Lacewing</div>
+      <div class="col-md">Io Moth</div>
+      <div class="col-md">Army Ants</div>
+    </div>
+    <br>
+    <p>When changing the size of the browser, the first row to break is the insect names. This is due to the second row being of medium size and the first row being smaller sized.</p>
+  </div>
     
     <div class="container">
       <img width="200" height="200" src="C:\Users\Dallas\Documents\GitHub\inchworm.jpg" class="img-fluid" alt="Inchworm Image">
@@ -133,6 +152,22 @@
         </div>
     </div>
     <br>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label for="Insect" class="form-label">Enter your Insect</label>
+        <input type="text" class="form-control" id="Insect" aria-describedby="emailHelp">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">Sign up for newsletter?</label>
+        <input type="checkbox" class="form-check-input">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
 
 </body>
 </html>
